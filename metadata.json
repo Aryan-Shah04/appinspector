@@ -1,0 +1,5 @@
+{
+  "name": "AppInspector AI",
+  "description": "Search for Google Play Store apps, analyze their reviews and authenticity using live Google Search data, and chat with an AI assistant about them.",
+  "requestFramePermissions": []
+}
