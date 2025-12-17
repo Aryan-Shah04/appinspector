@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { AppSearchResult, AppAnalysis, ChatMessage } from '../types';
 
 // Declare process for Vite environment variable usage in TS
-declare const process: { env: { API_KEY: string } };
+declare const process: { env: { API_KEY: "AIzaSyCZSqy5CN2DSbm0BWii3k7z4qtrhitzB8Q" } };
 
 // API Key must be obtained from environment variables
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
